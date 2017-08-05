@@ -1,0 +1,113 @@
+.Dd August 2, 2017
+.Dt KVNIO 1
+.Os BSD 4.4
+.Sh NAME
+Kevin Tjiam - software generalist, used for solving problems in the embedded systems and/or internet domain.
+.Sh SYNOPSIS
+.Nm kvnio
+.Op Fl abCfJl
+.Op Fl \-arm-cortex
+.Op Fl \-embedded-c
+.Op Fl \-javascript
+.Op Fl \-datasheet Ar pdf
+.Ar problem
+.Sh DESCRIPTION
+Curious and perpetually learning about all things computing.
+I've had some formal tertiary education (dropped out to be a music producer/DJ) in linguistics, embedded systems & software engineering, complemented by 15+ years of experience in almost every domain of computing.
+.Pp
+Currently spending a lot of time writing bare metal for Bluetooth Low Energy & ARM Cortex-M based devices. In my spare time, I'm starting to get into kernel development.
+.Pp
+Contemplating on going back to university so I can get a piece of paper that says I'm qualified at this stuff.
+.Sh CONTACT
+.Bl -tag
+.It Location
+.Lk https://www.google.com.au/maps/place/Perth+WA/@-32.0391738,115.6813632,10z Perth, Australia
+.It Email
+.Mt kevin@tjiam.com
+.It GitHub
+.Lk https://github.com/hellstad @hellstad
+.It Twitter
+.Lk https://twitter.com/kevincharm @kevincharm
+.It SoundCloud
+.Lk https://soundcloud.com/kevin-charm kevin-charm
+.It Webpage
+.Lk http://kvn.io kvn.io
+.El
+.Sh OPTIONS
+.Bl -tag
+.It Fl a Fl \-arm-cortex \-arm-gcc \-cmsis
+Use an ARM Cortex-M based MCU or SoC such as nRF5x and Atmel SAM series.
+.It Fl f Fl \-fast
+Improves performance of current task while coffee is being piped into stdin.
+.It Fl C Fl \-embedded-c Fl \-gnu11
+Use embedded C to write firmware for bare metal/real-time embedded systems.
+.It Fl J Fl \-javascript Fl \-esnext
+Use modern JavaScript to write applications across the entire stack, including the browser and Node.js.
+.It Fl l Fl \-linux
+Use a Fedora- or Debian-based Linux distribution as a development or production environment (uses systemd by default).
+.It Fl b Fl \-bsd Fl \-macos
+Use macOS, BSD, or other POSIX-compliant operating system as a development or production environment.
+.It Fl \-datasheet Ar pdf
+Thoroughly read a datasheet for an electronic component, specified in the argument.
+.El
+.Sh HISTORY
+.Bl -tag
+.It Sy Lead Software Developer No at Em Element Engineering Australia No (5/2016-PRESENT)
+Development, improvement & design of the entire IoT stack at EEA from bare metal to the browser. Responsible for management of software team & implementation of modern SDLC practices, including coding style guides, git-flow, code reviews, continuous integration.
+.It Sy Full-Stack Developer No at Em Element Engineering Australia No (7/2015-5/2016)
+End-to-end design, development & engineering of interconnected mechatronic systems from front-end web interfaces, all the way down to the microcontroller level.
+.It Sy Freelance Full-Stack Web Developer No (11/2014-7/2015)
+Freelance consulting, development and deployment of web applications using modern technologies including Node.js, Meteor, Cordova & Amazon Web Services.
+.It Sy Music Producer and DJ No at Em Kevin Charm No (2011-2015)
+Songwriting, music production and audio engineering, including mixing and mastering. Social media, promotion, and live stage performance. Extensive use of FL Studio, Pro Tools, subtractive synths, Kontakt, UAD, and numerous other audio suites and VSTs. Session guitarist. Vocal coach. Experience with industry standard equipment including NT1-A, matched-pair NT-5s, SM57, SM58, SSL G Bus, LA-2A, et cetera.
+.El
+.Sh EXAMPLES
+.Bl -tag
+.It Lk https://www.quarq.com/shockwiz SRAM ShockWiz
+Whilst at Element Engineering, I worked on a project with SRAM and Quarq (USA) to design, develop, test and manufacture a consumer bicycle product which involved product design, embedded systems engineering and mobile app development.
+.El
+.Sh COMPATIBILITY
+.Bl -tag
+.It Sy JavaScript
+Node.js, React/Redux, Cordova, WebGL
+.It Sy Embedded
+C (not C++), CMSIS, nRF5x, Atmel SAM, STM32, cellular (u-blox)
+.It Sy Data
+PostgreSQL, Cassandra, MongoDB, RabbitMQ (AMQP), Redis
+.It Sy Cloud
+AWS EC2, S3, Route 53, Lambda, CodeBuild, SES, IAM
+.It Sy Operating System
+macOS, CentOS, FreeBSD
+.El
+.Sh ENVIRONMENT
+.Bl -tag
+.It L1
+Australian English, Indonesian
+.It L2
+Norwegian
+.El
+.Sh COPYRIGHT
+Copyright (c) 2017 Kevin Tjiam
+.Pp
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

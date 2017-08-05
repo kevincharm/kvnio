@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600);
+
+$bg: #111111;
+$fg: #FAFAFA;
+$fontwidth: 14px;
+
+html, body {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    font-size: $fontwidth;
+    background-color: $fg;
+    color: $bg;
+}
+
+a {
+    color: $bg;
+    text-decoration: none;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+}
+
+.manpage {
+    padding: 15px;
+    max-width: 800px;
+}
+
+.manual-text {
+    $tabwidth: 4*$fontwidth;
+    padding-left: $tabwidth;
+    > .Sh {
+        margin-left: -$tabwidth;
+    }
+}
+
+h1.Sh {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+var.Ar {
+    text-decoration: underline;
+}
+
+table.foot {
+    margin-top: 15px;
+}
+
+/* from mandoc */
+table.head, table.foot {
+    width: 100%;
+}
+
+td.head-rtitle, td.foot-os {
+    text-align: right;
+}
+
+td.head-vol {
+    text-align: center;
+}
+
+div.Pp {
+    margin: 1ex 0ex;
+}
