@@ -8,12 +8,12 @@ html, body {
     font-family: 'Source Code Pro', monospace;
     font-weight: 300;
     font-size: $fontwidth;
-    background-color: $fg;
-    color: $bg;
+    background-color: $bg;
+    color: $fg;
 }
 
 a {
-    color: $bg;
+    color: $fg;
     text-decoration: none;
     border-bottom-style: dashed;
     border-bottom-width: 1px;
