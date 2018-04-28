@@ -19,6 +19,6 @@
   "homepage": "https://github.com/hellstad/ktjiam#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.9.0"
   }
 }
